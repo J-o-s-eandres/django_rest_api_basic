@@ -1,0 +1,96 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "django_mysql_API",
+    "dateExported": "2023-02-09T18:35:06.103Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "884907a6-0e32-4928-a451-afd42ffbe93d",
+            "colId": "eb1dbd1b-4533-4eca-9e84-0ef3188e873b",
+            "containerId": "",
+            "name": "GET list_company",
+            "url": "http://127.0.0.1:8000/api/companies/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-09T16:52:51.978Z",
+            "modified": "2023-02-09T16:52:58.983Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "86878c4b-fc52-4921-b48f-739ba09bd594",
+            "colId": "eb1dbd1b-4533-4eca-9e84-0ef3188e873b",
+            "containerId": "",
+            "name": "POST add_company",
+            "url": "http://127.0.0.1:8000/api/companies/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-09T17:01:04.606Z",
+            "modified": "2023-02-09T18:28:29.377Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Github\",\n  \"website\" : \"https://github.com\",\n  \"foundation\": \"2008\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "422f1074-0e84-4eb9-8c3f-cae4d1545c31",
+            "colId": "eb1dbd1b-4533-4eca-9e84-0ef3188e873b",
+            "containerId": "",
+            "name": "GET read_company",
+            "url": "http://127.0.0.1:8000/api/companies/6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-02-09T18:12:00.031Z",
+            "modified": "2023-02-09T18:15:05.865Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "11828e69-5086-4b7e-938a-ea07ee0459d8",
+            "colId": "eb1dbd1b-4533-4eca-9e84-0ef3188e873b",
+            "containerId": "",
+            "name": "PUT update_company",
+            "url": "http://127.0.0.1:8000/api/companies/4",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-02-09T18:21:12.223Z",
+            "modified": "2023-02-09T18:27:08.354Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Twitter INC.\",\n  \"website\" : \"http://twitter.com\",\n  \"foundation\": \"2009\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2b8cef8c-b7a6-4b6d-861b-e5fe3d056874",
+            "colId": "eb1dbd1b-4533-4eca-9e84-0ef3188e873b",
+            "containerId": "",
+            "name": "DELETE delete_company",
+            "url": "http://127.0.0.1:8000/api/companies/4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-02-09T18:25:54.082Z",
+            "modified": "2023-02-09T18:27:14.507Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "runOptions": {
+            "delay": 10,
+            "iterations": 20,
+            "dataFilePath": ""
+        }
+    }
+}
